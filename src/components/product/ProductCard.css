@@ -1,0 +1,43 @@
+.product-card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(131, 113, 113);
+    display: inline-block;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.image-container img {
+    display: block;
+    max-width: 230px;
+    max-height: 110px;
+    width: auto;
+    height: auto;
+}
+
+.product-card h1 {
+    margin-bottom: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  rgb(234, 71, 71);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:  rgb(234, 71, 71);
+  }

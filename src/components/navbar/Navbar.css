@@ -1,0 +1,44 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: azure;
+    top:0;
+    position: sticky;
+    
+}
+
+nav .brand {
+    height: 100%;
+}
+
+nav .brand img {
+    height: 100%;
+}
+
+nav .menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .menu ul li {
+   cursor: pointer;
+}
+
+nav .login {
+    display: flex;
+    gap: 20px;
+}
+
+nav .login button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 18px;
+    background-color: rgb(234, 71, 71);
+    cursor: pointer;
+    color: #fff;
+}
